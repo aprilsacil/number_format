@@ -23,24 +23,26 @@ jQuery/Javascript equivalent of number_format in PHP
     ```
 ### Element formatting
 assuming we have:
-    ```html
+```html
     <div class="prices">
-      <span class="price">12434.445</span>
-      <span class="price">123434545</span>
-      <span class="price">12345.7834893748973</span>
-      <span class="price">15.56</span>
+        <span class="price">12434.445</span>
+        <span class="price">123434545</span>
+        <span class="price">12345.7834893748973</span>
+        <span class="price">15.56</span>
     </div>
-    ```
+```
+
 the script:
-    ```javascript
-        $('.price').number_format(2, '.', ',');
-    ```
-could convert it to:
-    ```html
+```javascript
+    $('.price').number_format(2, '.', ',');
+```
+
+will convert it to:
+```html
     <div class="prices">
       <span class="price">12,434.45</span>
       <span class="price">123,434,545</span>
       <span class="price">12,345.78</span>
       <span class="price">15.56</span>
     </div>
-    ```
+```
