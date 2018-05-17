@@ -1,6 +1,6 @@
 {
   "name": "@aprilsacil/number_format.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQuery equivalent of number_format",
   "main": "number_format.js",
   "repository": "https://github.com/aprilsacil/number_format.git",
