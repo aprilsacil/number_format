@@ -1,5 +1,5 @@
 {
-  "name": "number_format",
+  "name": "@aprilsacil/number_format.js",
   "version": "1.0.0",
   "description": "jQuery equivalent of number_format",
   "main": "number_format.js",
