@@ -66,7 +66,7 @@ jQuery.extend({
         }
 
         var factor = Math.pow(10, decimalLength);
-        var number = number.split('.');
+        var number = number.toString().split('.');
         var integer = number[0];
 
         if (decimalLength
